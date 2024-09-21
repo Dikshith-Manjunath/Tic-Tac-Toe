@@ -25,11 +25,13 @@ boxes.forEach((box) => {
         console.log("the box was clicked.");
         if(turn0 === true){
             box.innerText = "X";  //sets the turn for player X
+            // box.style.color = "red"
             turn0 = false;
         }
 
         else{
             box.innerText = "O"; //sets the turn for player O
+            // box.style.color = "blue"
             turn0 = true;
         }
         box.disabled = true;
