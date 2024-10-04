@@ -15,8 +15,8 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background: url("../images/bicycle.jpg") no-repeat center center fixed;
   background-size: cover;
+  background: url("../images/bicycle.jpg") no-repeat center center fixed;
 }
 .head p {
   font-family: "Josefin Sans", sans-serif;

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<title>Rock Paper Scissors</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+        <div class="container">
+            <div class="choices">
+                <div class="choice" id="rock">
+                    <img src="./images/rock.png">
+                </div>
+                <div class="choice" id="paper">
+                    <img src="./images/paper.png">
+                </div>
+                <div class="choice" id="Scissors">
+                    <img src="./images/scissors.png">
+                </div>
+            </div>
+            <div class="scoreboard">
+                <div class="score">
+                    <p id="userScore">0</p>
+                    <p>User</p>
+                </div>
+                <div class="score">
+                    <p id="compScore">0</p>
+                    <p>Computer</p>
+                </div>
+            </div>
+            <div class="msgContainer">
+                <p id="msg">Play Your move</p>
+            </div>
+        </div>
+</body>
+<script src="app.js"> </script>
+</html>

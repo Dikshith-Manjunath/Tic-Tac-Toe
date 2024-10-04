@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    background-size: cover;
+    background: url("../RPC-Game/images/window.jpg") no-repeat center center fixed;
+}
+.container{
+    padding: 2rem;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 5rem;
+    color: whitesmoke;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 2.5rem;
+    padding-top: 1.15rem;
+    padding-bottom: 1.15rem;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+    height: 15rem;
+    width: 15rem;
+}
+img{
+    border: 2px solid black ;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 12rem;
+    width: 12rem;
+    object-fit: cover;
+}
+.choice img:hover{
+    border: 2px solid black;
+    opacity: 0.95;
+    box-shadow: 0 0 1rem ;
+}
+.choice img:active{
+    opacity: 0.85;
+}
+p{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+#msg{
+    padding: 0.45em ;
+    border-radius: 15px;
+    font-size: 2rem;
+    background-color: beige;
+    display: inline;
+}
+.scoreboard{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+.msgContainer{
+    margin: 3rem;
+}
